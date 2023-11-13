@@ -11,9 +11,23 @@
 }
 
 
-.abcd {
+/* .abcd {
     width: 20px !important;
     height: 20px !important;
     border-radius: 100% !important;
-    
+    cursor: pointer !important;
+ }  */
+
+.carousel-indicators ul {
+    background-color: #ff8000 !important; /* Default color for inactive indicators */
+    border-radius: 50% !important; /* Make it a circle */
+    width: 20px !important; /* Set width of the dot */
+    height: 20px !important; /* Set height of the dot */
+    margin: 0 5px !important; /* Set margin between dots */
+    cursor: pointer !important;
 }
+
+.carousel-indicators .active {
+    background-color: #bfff00 !important; /* Color for the active indicator */
+}
+
